@@ -1,3 +1,4 @@
 # EEP
 collage project
-https://github.com/pkundu307/eep.github.io
+
+https://pkundu307.github.io/eep.github.io/
