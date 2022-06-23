@@ -779,7 +779,7 @@ movie {
     font-family: "Poppins", sans-serif;
     margin: 0;
     box-sizing: border-box;
-    background-color: #373b69;
+    background-color: #cecf70bb;
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
@@ -787,16 +787,20 @@ movie {
 
 .search {
     background-color: transparent;
-    border: 2px solid #22254b;
+    border: 2px solid #d3ad7f;
     border-radius: 50px;
     color: #fff;
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem 1rem;
+    padding-right: 36.125;
+    margin-right: 62px;
+    border-right-width: 347.828;
+    border-left-width: 1000px;
 }
 
 .search::placeholder {
-    color: #c5c8f3;
+    color: #d3ad7f;
 }
 
 .search:focus {
@@ -806,16 +810,15 @@ movie {
 
 main {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .movie {
     width: 100%;
     display: block;
     margin-bottom: 20px;
-    background-color: #373b69;
+    background-color: #d3ad7f;
     border-radius: 3px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
     overflow: hidden;
     position: relative;
     margin: 1rem;
