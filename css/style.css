@@ -794,9 +794,6 @@ movie {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     padding-right: 36.125;
-    margin-right: 62px;
-    border-right-width: 347.828;
-    border-left-width: 1000px;
 }
 
 .search::placeholder {
