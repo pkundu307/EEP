@@ -58,8 +58,11 @@ setInterval(function() {
 const currentTime = document.querySelector("h1"),
     content = document.querySelector(".content"),
     selectMenu = document.querySelectorAll("select"),
-    setAlarmBtn = document.querySelector("button");
-
+    setAlarmBtn = document.querySelector("button"),
+    day = document.querySelector("h2");
+const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const d = new Date();
+day.innerText = weekday[d.getDay()];
 let alarmTime, isAlarmSet,
     ringtone = new Audio("./files/ringtone.mp3");
 
